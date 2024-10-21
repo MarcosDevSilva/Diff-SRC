@@ -11536,6 +11536,7 @@ static const struct _battle_data {
 	{ "hom_delay_reset_vaporize",           &battle_config.hom_delay_reset_vaporize,        1,      0,      1,              },
 	{ "hom_delay_reset_warp",               &battle_config.hom_delay_reset_warp,            1,      0,      1,              },
 #endif
+	{ "reserved_costume_id",				&battle_config.reserved_costume_id,				999998,	0,		INT_MAX,		},
 
 #include <custom/battle_config_init.inc>
 };

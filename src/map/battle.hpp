@@ -764,6 +764,7 @@ struct Battle_Config
 	int item_stacking;
 	int hom_delay_reset_vaporize;
 	int hom_delay_reset_warp;
+	int reserved_costume_id;
 
 #include <custom/battle_config_struct.inc>
 };
